@@ -1,0 +1,49 @@
+:root{
+    --primary-color: #C26868;
+    --secondary-color: #4C5364;
+    --tertiary-color: #FAFAFA;
+    --fourth-color: #A3A6AF;
+    --dark-black-color: #23251E;
+    --grey-color: #F0ECE7;
+	  --dark-sea-color: #6AA0AA;
+    --sea-light-color: #8DB0B0;
+    --brown-grey-color: #B0A794;
+    --black-color: #121010;
+		--green-sea-color: #49B790;
+    --ocean-dark-color: #6AA0AA
+  }
+.mainNav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary-color);
+    justify-content: space-around;
+    gap: 50%
+}
+.logo{
+    display: grid;
+    align-items: center;   
+}
+
+
+
+
+  .navIcons{
+    display: grid;
+    align-items: center;
+  }
+
+  .navIcons ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    
+  }
+  .navIconsList{
+    list-style: none;
+}
+a {
+    text-decoration: none; /* remove the underline */
+  }
